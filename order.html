@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Waroeng Dietary</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ee6e997122.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Swipper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!-- Start Header Section -->
+    <header>
+        <a href="index.html" class="logo">
+            <i class="fas-fa untensils"></i>D'Waroeng Dietary
+        </a>
+
+        <!-- Start Navbar -->
+        <nav class="navbar">
+            <a class="active" href="index.html">Home</a>
+            <a href="dish.html">Product</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="review.html">Review</a>
+            <a href="order.html">Order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+        <!-- End Navbar -->
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Search Form -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- End Search Form -->    
+    
+    <!-- Start Order Section -->
+    <section class="order" id="order">
+        <h1 class="heading">Gabung Sekarang untuk Memesan!</h1>
+        <h3 class="sub-heading">ORDER HERE</h3>
+        <h1 class="heading">Gabung Sekarang untuk Memesan!</h1>
+        <div class="kiri-kanan">
+            <!-- Form -->
+            <form>
+            <div class="kiri">
+                <div class="form">
+                    <label for="nama">Nama  :</label>
+                    <input type="text" id="nama" class="input">
+                </div>
+                <div class="form">
+                    <label for="birth">Tanggal Lahir  :</label>
+                    <input type="date" id="birth" class="input">
+                </div>
+                <div class="mail">
+                    <label for="email">Email  :</label>
+                    <input type="email" id="email" class="input">
+                </div>
+                <div class="form">
+                    <label for="gender">Jenis Kelamin  :</label>
+                    <label><input type="radio" name="jenis_kelamin" value="laki-laki" class="opsi"/> Laki-laki</label>
+                    <label><input type="radio" name="jenis_kelamin" value="perempuan" class="opsi"/> Perempuan</label>
+                </div>
+                <div class="form">
+                    <label for="phone">No. HP  :</label>
+                    <input type="text" id="phone" class="input">
+                </div>
+                <div class="form">
+                    <label for="domisili">Domisili (Kota)  :</label>
+                        <select name="dom" style="border: 1.5px solid" class="dom">
+                            <option value="balikpapan" class="kota">Balikpapan</option>
+                            <option value="samarinda" class="kota">Samarinda</option>
+                            <option value="bontang" class="kota">Bontang</option>
+                            <option value="penajam" class="kota">Penajam</option>
+                            <option value="lainnya"class="kota">Lainnya</option>
+                        </select>
+                </div>
+                <div class="form">
+                    <label for="tujuan">Tujuan Diet  :</label>
+                    <label><input type="checkbox" name="diet2" class="check" />Lose Weight </label>
+                    <label><input type="checkbox" name="pola_makan" class="check" />Pola Makan Sehat</label>
+                    <label><input type="checkbox" name="isoman" class="check" />Isolasi Mandiri</label>
+                    <label><input type="checkbox" name="diet1" class="check" />Kondisi Medis</label>
+                    <label><input type="checkbox" name="recovery" class="check" />Pasca Operasi</label>
+                    <label><input type="checkbox" name="lainnya" class="check" />Lainnya</label>
+                </div>
+                <div class="form">
+                    <label for="riwayat">Riwayat Penyakit  :</label>
+                    <label><input type="checkbox" name="hipertensi" />Hipertensi</label>
+                    <label><input type="checkbox" name="diabetes" />Diabetes</label>
+                    <label><input type="checkbox" name="ginjal" />Asam Urat Tinggi</label>
+                    <label><input type="checkbox" name="jantung" />Kolesterol Tinggi</label>
+                    <label><input type="checkbox" name="gerd" />Gerd</label>
+                    <label><input type="checkbox" name="lainnya" />Lainnya</label>
+                </div>
+                <div class="form">
+                    <label for="alergi">Pantangan & Alergi  :</label>
+                    <textarea name="teks" cols="40" rows="5" class="kotakteks" style="border: 1.5px solid"></textarea>
+                </div>
+                <div class="InFile">
+                    <label for="foto">Upload Foto  :</label>
+                    <input type="file" id="foto" class="input" accept="image/*">
+                </div><br>
+                <a href="order.html" class="btn">Submit</a>
+                
+            </form>
+            </div>
+            <!-- End Form -->
+
+        </div>
+    </section>
+    <!-- End Order Section -->
+
+        <!-- Custom JS file -->
+        <script src="js/script.js"></script>
+
+    <!-- AKhir Halaman Web -->
+    <div id="container">
+        <div class="footer">
+            Copyright © 2023  ||
+            Created by Angrayni Melinda Safitri
+        </div>
+    </div>
+
+</body>
+
+</html>
